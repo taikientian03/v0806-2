@@ -21,7 +21,9 @@ namespace v0806_2
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
+            Point mp = MousePosition;
+            label1 Left=mp.X;
+            label1 Left = mp.Y;
         }
 
         private void button1_Click(object sender, EventArgs e)
